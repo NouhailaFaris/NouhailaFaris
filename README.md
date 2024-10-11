@@ -1,8 +1,8 @@
 TP Bus & Réseau:
 
-les adresses I²C possibles pour ce composant: 111011X0\n
-le registre et la valeur permettant d'identifier ce composant:0xD0
-le registre et la valeur permettant de placer le composant en mode normal:0xF4 , Valeur :11
+les adresses I²C possibles pour ce composant: 111011X0.
+le registre et la valeur permettant d'identifier ce composant:0xD0.
+le registre et la valeur permettant de placer le composant en mode normal:0xF4 , Valeur :11.
 les registres contenant l'étalonnage du composant:les registres calib00 à calib25, de l'adresse 0x88 à 0xA1.
 les registres contenant la température (ainsi que le format):
 ->temp_msb à l'adresse 0xFA (bits 15-8)
